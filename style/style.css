@@ -1,0 +1,87 @@
+#image {
+	background: url(https://s19453.pcdn.co/wp-content/uploads/2017/04/Fordham.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header{
+	font-family: 'Roboto', sans-serif;
+	overflow: hidden;
+	background-color: #f1f1f1;
+	padding: 10px;
+}
+
+.header a{
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 10px;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.header a.default{
+	font-size: 25;
+	font-weight: bold;
+}
+
+.header a.active{
+	background-color: #0EBFE9;
+	color: white;
+}
+
+.header a:hover {
+	background-color: darkgrey;
+	color: black;
+}
+.rightheader {
+	float: right;
+}
+
+.rightheader {
+	background-color: #f1f1f1;
+}
+
+.class{
+	font-family: 'Roboto', sans-serif;
+}
+
+#bodytext {
+	font-family: 'Roboto', sans-serif;
+	margin: auto;
+	max-width: 500px;
+}
+
+.btn {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  height: 50px;
+  background-color: white;
+  padding: 10px;
+  color: black;
+  font-size: 25px;
+  border: 2px solid black;
+  cursor: pointer;
+  border-color: red;
+  border-radius: 5px;
+}
+
+.link1 {
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-color: red;
+	color: white;
+}
+
+#color {
+	background-color: lightgrey;
+}
