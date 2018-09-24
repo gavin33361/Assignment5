@@ -1,9 +1,11 @@
+/*background for only homepage*/
 #image {
 	background: url(https://s19453.pcdn.co/wp-content/uploads/2017/04/Fordham.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
+/*header tab*/
 .header{
 	font-family: 'Roboto', sans-serif;
 	overflow: hidden;
@@ -11,6 +13,7 @@
 	padding: 10px;
 }
 
+/*for the links inside the header*/
 .header a{
 	float: left;
 	color: black;
@@ -22,38 +25,47 @@
 	text-decoration: none;
 }
 
+/*for the link at the top right*/
 .header a.default{
 	font-size: 25;
 	font-weight: bold;
 }
 
+/*shows you what tab you're in*/
 .header a.active{
 	background-color: #0EBFE9;
 	color: white;
 }
 
+/*what happens when you hover over tab*/
 .header a:hover {
 	background-color: darkgrey;
 	color: black;
 }
+
+/*put text to right*/
 .rightheader {
 	float: right;
 }
 
+/*color for background*/
 .rightheader {
 	background-color: #f1f1f1;
 }
 
+/*font*/
 .class{
 	font-family: 'Roboto', sans-serif;
 }
 
+/*font and text centering*/
 #bodytext {
 	font-family: 'Roboto', sans-serif;
 	margin: auto;
 	max-width: 500px;
 }
 
+/*button on homepage*/
 .btn {
   position: absolute;
   margin: auto;
@@ -73,15 +85,18 @@
   border-radius: 5px;
 }
 
+/*no underline on link*/
 .link1 {
 	text-decoration: none;
 }
 
+/*turns red when hovering*/
 .btn:hover {
 	background-color: red;
 	color: white;
 }
 
+/*light grey color on about page*/
 #color {
 	background-color: lightgrey;
 }
